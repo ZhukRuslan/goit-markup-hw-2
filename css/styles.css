@@ -6,7 +6,7 @@
 body {
     font-family: var(--text-font);
     color: #212121;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }  
 
 /*-----HEADER-----*/
@@ -17,16 +17,24 @@ body {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-}
-.logo-word {
+    text-decoration: none;
     color: var(--accent-color);
 }
+.logo-word {
+    color: #212121;
+}
+.navigation-list {
+    list-style-type: none;
+}
 .navigation-list-link {
-    font-family: var(--text-font);
+    font-family: var(--text-font);;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+    
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
@@ -37,7 +45,9 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:#757575;
 }
 .email-link:hover {
     color: var(--accent-color);
@@ -47,10 +57,12 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
-    letter-spacing: 2%; 
+    letter-spacing: 0.02em; 
+    text-decoration: none;
+    color:#757575;
 }
 .tel-link:hover {
-    color:#757575;
+    color: var(--accent-color);
 }
 
 /*-----AND HEADER-----*/
@@ -65,7 +77,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     /*color: #FFFFFF;*/
 }
 .title-btn {
@@ -73,13 +85,16 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
 }
 
 /*-----AND HERO-----*/
 
 /*-----FEATURES-----*/
+.features-list {
+    list-style-type: none;
+}
 .features-title {
     font-family: var(--text-font);
     font-weight: 700;
@@ -100,6 +115,9 @@ body {
 /*----- AND FEATURES-----*/
 
 /*-----ACTIVITY-----*/
+.activity-list {
+    list-style-type: none;
+}
 .activity-title {
     font-family: var(--text-font);
     font-weight: 700;
@@ -111,6 +129,9 @@ body {
 /*-----AND ACTIVITY-----*/
 
 /*-----TEAM-----*/
+.team-list {
+    list-style-type: none;
+}
 .team-title {
     font-family: var(--text-font);
     font-weight: 700;
@@ -136,10 +157,27 @@ body {
 /*-----AND TEAM-----*/
 
 /*-----FOOTER-----*/
+.logo-word-write {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: #FFFFFF;*/
+}
+
+.address {
+    font-style: normal;
+}
+
 /*-----AND FOOTER-----*/
 
 
 /*-----CONTACT-----*/
+.contact-information-list {
+    list-style-type: none;
+}
 .contact-information-map-link {
 font-family: var(--text-font);
 font-weight: 400;
@@ -147,6 +185,7 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 /*color: #FFFFFF;*/
+text-decoration: none;
 }
 .contact-information-link {
 font-family: var(--text-font);
@@ -155,11 +194,15 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 /*color: rgba(255, 255, 255, 0.6);*/
+text-decoration: none;
 }
 
 /*-----AND CONTACT-----*/
 
-/*-----NAV-PROJECT-----*/
+/*-----MAIN-PROJECT-----*/
+.main-project-list {
+    list-style-type: none;
+}
 .project-btn {
     font-family: var(--text-font);
     font-weight: 500;
@@ -173,10 +216,13 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-/*-----AND NAV-PROJECT-----*/
+/*-----AND MAIN-PROJECT-----*/
 
 
 /*-----PROJECTS-----*/
+.projects-list {
+    list-style-type: none;
+}
 .projects-title {
     font-family: var(--text-font);
     font-weight: 700;
